@@ -35,7 +35,7 @@
     "mysql": "2.x.x",
     "pg": "6.x.x",
     "pg-hstore": "2.x.x",
-    "sequelize": "4.0.0-0",
+    "sequelize": "3.x.x",
     "sqlite3": "3.x.x",
     "tedious": "1.x.x"
   },
