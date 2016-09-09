@@ -36,9 +36,10 @@
     "pg": "6.x.x",
     "pg-hstore": "2.x.x",
     "sequelize": "3.x.x",
+    "sequelize-fixtures": "0.x.x",
     "sqlite3": "3.x.x",
     "tedious": "1.x.x",
-    "umzug": "^1.11.0"
+    "umzug": "1.x.0"
   },
   "devDependencies": {
     "code": "3.x.x",
