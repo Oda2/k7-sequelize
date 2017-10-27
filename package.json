@@ -4,7 +4,7 @@
   "description": "K7 adapter for Sequelize ORM",
   "main": "index.js",
   "scripts": {
-    "test": "semistandard && lab",
+    "test": "semistandard && lab -m 60000",
     "test-cov-html": "lab -r html -o coverage.html"
   },
   "repository": {
@@ -30,13 +30,13 @@
   "dependencies": {
     "glob": "7.x.x",
     "hoek": "4.x.x",
-    "k7": "1.x.x",
+    "k7": "1.0.2",
     "lab": "10.x.x",
     "mysql": "2.x.x",
     "pg": "7.x.x",
     "pg-hstore": "2.x.x",
-    "sequelize": "4.x.x",
-    "sequelize-fixtures": "0.5.5",
+    "sequelize": "3.x.x",
+    "sequelize-fixtures": "0.x.x",
     "sqlite3": "3.x.x",
     "tedious": "1.x.x",
     "umzug": "1.x.0"
